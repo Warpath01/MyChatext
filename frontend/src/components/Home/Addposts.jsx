@@ -69,7 +69,7 @@ const AddPosts = () => {
           {" "}
           {/* Smaller padding */}
           <h5 className="card-title fs-6 text-success">
-            <IoArrowRedoOutline /> Create a Post <TfiWrite />
+            Create a Post 
           </h5>{" "}
           {/* Smaller font size */}
           <form onSubmit={handleSubmit}>
