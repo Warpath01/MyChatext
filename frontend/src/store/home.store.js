@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { create } from "zustand"
 
-const BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:7000" : "http://my-chatext.vercel.app";
+const BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:7000" : "https://my-chatext.vercel.app";
 
 export const useHomeStore = create((set) => ({
     posts: [],
