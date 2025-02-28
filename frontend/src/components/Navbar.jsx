@@ -24,13 +24,13 @@ const Navbar = () => {
           href="#"
           style={{ width: "100px" }}
         >
-          <IoHome />
+          Home
         </Link>
         <Link to="/chat" className="btn btn-outline-primary ">
-          Chat <IoChatbubbleOutline />
+          Chat 
         </Link>
         <button className="btn btn-outline-danger" onClick={handleLogout}>
-          <TbLogout2 /> Log Out
+           Log Out
         </button>
       </nav>
     </div>
