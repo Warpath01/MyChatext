@@ -23,6 +23,7 @@ export const useAuthStore = create(
 
                     const res = await fetch(`${BASE_URL}/api/auth/check`, {
                         method: "GET",
+                         mode: "cors",
                         headers: {
                             "Content-Type": "application/json",
                             ...(token && { Authorization: `Bearer ${token}` }),
@@ -88,6 +89,7 @@ export const useAuthStore = create(
                 try {
                     const res = await fetch(`${BASE_URL}/api/auth/personal`, {
                         method: "GET",
+                         mode: "cors",
                         headers: {
                             "Content-Type": "application/json",
                         },
@@ -104,6 +106,7 @@ export const useAuthStore = create(
                 try {
                     const res = await fetch(`${BASE_URL}/api/auth/update-profile`, {
                         method: "PUT",
+                         mode: "cors",
                         credentials: "include",
                         body: formData
                     });
@@ -118,6 +121,7 @@ export const useAuthStore = create(
                 try {
                     const res = await fetch(`${BASE_URL}/api/auth/signup`, {
                         method: "POST",
+                         mode: "cors",
                         headers: {
                             "Content-Type": "application/json",
                         },
@@ -140,6 +144,7 @@ export const useAuthStore = create(
                 try {
                     const res = await fetch(`${BASE_URL}/api/auth/login`, {
                         method: "POST",
+                         mode: "cors",
                         headers: {
                             "Content-Type": "application/json",
                         },
@@ -165,6 +170,7 @@ export const useAuthStore = create(
                 try {
                     await fetch(`${BASE_URL}/api/auth/logout`, {
                         method: "POST",
+                         mode: "cors",
                         headers: {
                             "Content-Type": "application/json",
                         },
