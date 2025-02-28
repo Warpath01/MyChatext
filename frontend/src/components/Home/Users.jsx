@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ReactLogo from "../../assets/react.svg";
 import { useHomeStore } from "../../store/home.store";
-import { FiUsers } from "react-icons/fi";
+// import { FiUsers } from "react-icons/fi";
 import { useAuthStore } from "../../store/auth.store";
 
 const Users = () => {
