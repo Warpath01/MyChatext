@@ -26,7 +26,7 @@ const Contacts = () => {
         className="btn btn-outline-success  text-center fs-5"
         onClick={handleSelectedUser}
       >
-        World Chat <MdOutlineForum />
+        World Chat 
       </button>
       <hr className="w-100" />
 
