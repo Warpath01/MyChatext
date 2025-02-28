@@ -3,7 +3,7 @@ import logo from "../../assets/react.svg";
 import { useChatStore } from "../../store/chat.store";
 import { useAuthStore } from "../../store/auth.store";
 
-import { FiUsers } from "react-icons/fi";
+// import { FiUsers } from "react-icons/fi";
 
 const Users = () => {
   const { users, getUsers, selectedUser, setSelectedUser } = useChatStore();
