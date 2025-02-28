@@ -18,7 +18,7 @@ dotenv.config();
 // OR allow all origins (for development purposes)
 app.use(
     cors({
-        origin: "https://my-chatext.vercel-client-two.app",
+         origin: "https://my-chatext-client-two.vercel.app",
         credentials: true,
     })
 );
