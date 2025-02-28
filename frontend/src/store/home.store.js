@@ -12,6 +12,7 @@ export const useHomeStore = create((set) => ({
         try {
             const res = await fetch(`${BASE_URL}/api/posts/users`, {
                 method: "GET",
+                 mode: "cors",
                 headers: {
                     "Content-Type": "application/json",
                 },
@@ -28,6 +29,7 @@ export const useHomeStore = create((set) => ({
         try {
             const res = await fetch(`${BASE_URL}/api/posts/all`, {
                 method: "GET",
+                 mode: "cors",
                 headers: {
                     "Content-Type": "application/json",
                 },
@@ -45,6 +47,7 @@ export const useHomeStore = create((set) => ({
         try {
             const res = await fetch(`${BASE_URL}/api/posts/add`, {
                 method: "POST",
+                 mode: "cors",
                 credentials: "include",
                 body: formData
             });
