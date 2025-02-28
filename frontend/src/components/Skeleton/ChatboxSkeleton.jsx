@@ -1,7 +1,7 @@
 import React from "react";
-import { SiWelcometothejungle } from "react-icons/si";
-import { TbCircleLetterCFilled } from "react-icons/tb";
-import { TbCircleLetterT } from "react-icons/tb";
+// import { SiWelcometothejungle } from "react-icons/si";
+// import { TbCircleLetterCFilled } from "react-icons/tb";
+// import { TbCircleLetterT } from "react-icons/tb";
 
 const ChatboxSkeleton = () => {
   return (
