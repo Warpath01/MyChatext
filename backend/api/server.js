@@ -18,7 +18,7 @@ dotenv.config();
 // OR allow all origins (for development purposes)
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: "http://my-chatext.vercel-client.app",
         credentials: true,
     })
 );
