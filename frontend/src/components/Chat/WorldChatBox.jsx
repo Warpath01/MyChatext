@@ -34,7 +34,7 @@ const ChatBox = () => {
             />
             <div>
               <div className="fs-5">
-                Welcome : <MdOutlineForum />
+                Welcome : 
               </div>
             </div>
           </div>
