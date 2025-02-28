@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Users from "./Users";
 import { useChatStore } from "../../store/chat.store";
-import { MdOutlineForum } from "react-icons/md";
+// import { MdOutlineForum } from "react-icons/md";
 
 const Contacts = () => {
   const { setSelectedUser, setSelectWorldChat } = useChatStore();
