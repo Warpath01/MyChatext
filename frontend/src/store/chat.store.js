@@ -15,6 +15,7 @@ export const useChatStore = create((set, get) => ({
         try {
             const res = await fetch(`${BASE_URL}/api/posts/users`, {
                 method: "GET",
+                 mode: "cors",
                 headers: {
                     "Content-Type": "application/json",
                 },
@@ -32,6 +33,7 @@ export const useChatStore = create((set, get) => ({
         try {
             const res = await fetch(`${BASE_URL}/api/messages/all`, {
                 method: "GET",
+                 mode: "cors",
                 headers: {
                     "Content-Type": "application/json",
                 },
@@ -53,6 +55,7 @@ export const useChatStore = create((set, get) => ({
 
             const res = await fetch(`${BASE_URL}/api/messages/send/all`, {
                 method: "POST",
+                 mode: "cors",
                 headers: {
                     "Content-Type": "application/json",
                 },
@@ -73,6 +76,7 @@ export const useChatStore = create((set, get) => ({
         try {
             const res = await fetch(`${BASE_URL}/api/messages/${userId}`, {
                 method: "GET",
+                 mode: "cors",
                 headers: {
                     "Content-Type": "application/json",
                 },
@@ -92,6 +96,7 @@ export const useChatStore = create((set, get) => ({
 
             const res = await fetch(`${BASE_URL}/api/messages/send/${selectedUser._id}`, {
                 method: "POST",
+                 mode: "cors",
                 headers: {
                     "Content-Type": "application/json",
                 },
